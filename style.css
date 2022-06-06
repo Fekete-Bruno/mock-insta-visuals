@@ -1,0 +1,378 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img:hover{
+    cursor: pointer;
+}
+.top{
+    top:0;
+    left:0;
+    position:fixed;
+    width:100%;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 2px solid #dbdbdb;
+}
+.top-content {
+width:935px;
+padding: 1rem;
+box-sizing: border-box;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.searchbar input{
+    text-align: center;
+    color: #979797;
+    font-size: 0.8rem;
+    width: 25vw;
+    height: 1.5rem;
+}
+
+.top-left{
+    font-size: 1.5rem;
+    display: flex;
+}
+.top-left img{
+    height: 2rem;
+}
+.top-left:hover{
+    cursor: pointer;
+}
+.vertical-bar{
+    background-color: #DBDBDB;
+    width: 0.1rem;
+    margin:0 0.5rem;
+    height:22px;
+}
+.top-icons{
+    font-size: 22px;
+}
+
+.top-icons ion-icon{
+    margin-left: 0.5rem;
+}
+
+ion-icon:hover{
+    cursor: pointer;
+}
+.content{
+    position: relative;
+    margin: 88px auto;
+    width:935px;
+    display: flex;
+    align-items: space-around;
+}
+.post-stories{
+    width: 614px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.post{
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+    width:100%;
+}
+.post img{
+    width: 612px;
+}
+.post-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-top ion-icon{
+    margin: 10px;
+}
+
+.post-top-left{
+
+    display: flex;
+    align-items: center;
+}
+
+.post-top-left p {
+    font-weight: 500;
+}
+.post-top-left img{
+    margin:10px;
+    width: 2rem;
+    border-radius: 50%;
+}
+.post-bottom{
+    margin:5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-bottom ion-icon{
+    margin:5px;
+    font-size: 1.5rem;
+}
+.post-bottom-likes{
+    display: flex;
+    align-items: center;
+}
+
+.post-bottom-likes p {
+    font-size: 14px;
+    font-weight: 500;
+}
+.post-bottom-likes strong {
+    font-weight: 700;
+}
+.post-bottom-likes img{
+    margin:10px;
+    width: 1.5rem;
+    border-radius: 50%;
+}
+.sidebar{
+ width: 293px;
+ margin: 10px 20px;
+ display: flex;
+ flex-direction: column;
+}
+.sidebar p{
+    color: #c7c7c7;
+    font-size: 11px;
+    font-weight: 400;
+}
+.sidebar-main{
+    display:flex;
+    align-items: center;
+}
+.sidebar-main img{
+    margin:10px;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+.sidebar-main p{
+    color: #8E8e8e;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+}
+
+.sidebar-main strong{
+    color: black;
+}
+.para-voce {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.para-voce p{
+    font-size: 12px;
+}
+
+.para-voce h1{
+
+    font-size: 12px;
+}
+.sugestao{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sugestao strong{
+    color: black;
+}
+.sugestao img{
+    margin:10px;
+    width: 2rem;
+    border-radius: 50%;
+}
+.sugestao-texto{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sugestao-texto h1{
+    color: #8e8e8e;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.sugestao-texto strong{
+    color: black;
+    font-size: 14px;
+}
+
+.sugestao-texto h2{
+    color: #139EF2;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+}
+.sugestao-texto h2:hover{
+    cursor: pointer;
+}
+.sobre{
+    margin: 20px 20px;
+}
+
+.stories-box{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 80px;
+    height: 90px;
+}
+.story-img{
+    margin: auto;
+    position: relative;
+}
+.story-img img{
+    width: 66px;
+    border-radius: 50%;
+}
+
+.story-img2 img{
+    margin:auto;
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left:5px;
+    border-radius: 50%;
+}
+
+.story-text{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 70px;
+    height: 15px;
+}
+
+.setinha{
+    position:absolute;
+    font-size: 32px;
+    color: white;
+    bottom:35px;
+    right: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25))
+}
+.top-icons-mobile{
+    display: none;
+    font-size: 22px;
+}
+.logo-mobile{
+    display: none;
+}
+.bottom-bar{
+    display: none;
+}
+
+    
+@media screen and (min-width:614px) and (max-width:935px){
+    .sidebar{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:614px) {
+
+    .stories-box{
+        width:99vw;
+    }
+    .logo-mobile{
+        display: inline;
+    }
+
+    .logo-mobile img{
+        height: 5vw;
+    }
+    .vertical-bar{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        justify-content: center;
+    }
+    .searchbar{
+        display: none;
+    }
+    .top-icons{
+        display: none;
+    }
+    .top-icons-mobile{
+        display: inline;
+    }
+    .top-left img{
+        display: none;
+    }
+    .post-stories{
+        width: 100%;
+    }
+    .post{
+        width: 100%;
+    }
+    .post img{
+        width: 100%;
+    }
+    .post-bottom-likes img{
+        width: 5vw;
+    }
+
+    .post-top-left img{
+        width: 10vw;
+    }
+   .bottom-bar{
+       display: inline;
+       background-color: red;
+    } 
+    .bottom-content{
+        position: fixed;
+        bottom:0;
+        left:0;
+        width: 100%;
+        background-color: white;
+        border-top: 2px solid #dbdbdb;
+        z-index: 1;
+       display: flex;
+       justify-content: space-around;
+    }
+    .bottom-content ion-icon{
+        font-size: 1.5rem;
+        margin: 0.5rem;
+    }
+    .setinha{
+        display: none;
+    }
+    .stories-box{
+        border: 0;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
