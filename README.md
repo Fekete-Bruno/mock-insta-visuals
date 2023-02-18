@@ -1,6 +1,6 @@
 # mock-insta-visuals
 
-This project was a POC, at the time I was learning how to work with HTML and CSS. The page is basic and static as I did not know JavaScript when I created this project. 
+This project was a POC during a programming bootcamp, at the time I was learning how to work with HTML and CSS. The page is basic and static as I did not know JavaScript when I created this project. 
 
 ## How to open the page:
 
